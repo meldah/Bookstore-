@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+ </HEAD>
+ <BODY>
+ Поръчка
+ <form action="lubopitko.php" method="GET">
+Име: <input type="text" name="ime" /> <br>
+Адрес: <input type="text" name="adres" /> <br>
+Телефон: <input type="text" name="telefon" /> <br>
+Избери книга: 
+<p>
+<select name="knigi">
+<option> </option>
+<option> </option>
+<option> </option>                                                                                                                                   
+<option> </option>
+</select>
+</p>
+<p>Моля, въведете вашия коментар:</p>
+<textarea name="coment" rows="5" cols="40">
+</textarea> <br>
+<input type="submit" value="Изпрати" /> 
+<input type="submit" value="Поръчай" />
+
+
+ </form>
+  
+ </BODY>
+</HTML>

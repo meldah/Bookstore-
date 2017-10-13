@@ -1,0 +1,102 @@
+
+body
+{
+background-image:url('fon.jpg');
+} 
+ 
+h3
+{
+text-align:center;
+font-size: 32px;
+
+}
+
+.knigi td
+{
+border: 1px solid black;
+font-size: 20px;
+font-family:"Times New Roman";
+}
+
+#logo 
+{
+	height: 150px;
+    	width: 700px;
+	border: none;
+    	align:middle;
+}
+
+#nav a {
+    font-size:20px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+	margin-left:10px;
+    
+	
+}
+#nav ul li:hover {
+    background-color:#356892;
+	border-radius: 17px;
+}
+
+p
+{
+font-align:"center";
+font-family:"Times New Roman";
+font-size:24px;
+}
+
+.knigi img
+{
+width:180px;
+height:250px;
+}
+
+a
+{ 
+	color: #0000aa; 
+	font-size: 16px;
+	font-family: arial, helvetica, verdana, sans-serif;
+	font-weight: bold 
+}
+
+a:link   
+{ 
+	text-decoration: none 
+}
+
+a:visited  
+{ 
+	text-decoration: none;
+	color: #5500ff
+}
+a:hover   
+{
+	text-decoration: underline; 
+	color: #aa0000
+}
+a:active  
+{ 
+	text-decoration: none; 
+	color: #77aaCC
+}
+
+td     
+{ 
+	color: #222222; 
+	font-size: 12px;
+	font-family: arial, helvetica, verdana, sans-serif;
+	padding-left: 5px; 
+	padding-right: 5px; 
+	padding-top: 20px;
+	padding-bottom: 20px 
+}

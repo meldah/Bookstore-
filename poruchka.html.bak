@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+<link rel=stylesheet type="text/css" href="poruchka.css" />
+  <TITLE> Поръчка </TITLE>
+ </HEAD>
+ <body background="izobrajeniq/08.jpg">
+ <form action="lubopitko.php" method="POST">
+ <?php
+$quantity = $_POST['quantity'];
+$item = $_POST['item'];
+
+echo "You ordered ". $quantity . " " . $item . ".<br />";
+echo "Thank you for ordering from Programist.hit.bg Art Supplies!";
+
+?>
+Поръчка <br>
+Име: <input type="text" name="ime" /> <br>
+Адрес: <input type="text" name="adres" /> <br>
+Телефон: <input type="text" name="telefon" /> <br>
+Избери книга: 
+<p>
+<select name="item">
+<option> Остани </option>
+<option> Куджо </option>
+<option> Бурята на века </option>                                                                                                                                   
+<option> Кралят в жълто </option>
+</select>
+</p>
+Quantity: <input name="quantity" type="text" /> 
+<input type="submit" />
+<p>Моля, въведете вашия коментар:</p>
+<textarea name="comment" rows="5" cols="40">
+</textarea> <br> 
+<input type="submit" value="Поръчай" />
+
+
+ </form>
+<A HREF="index.html#begin"> Начална страница </A>
+  
+ </BODY>
+</HTML>

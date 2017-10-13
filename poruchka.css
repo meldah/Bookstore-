@@ -1,0 +1,22 @@
+form
+{
+font-size: 24px;
+font-family:"Times New Roman";
+
+text-align:center;
+}
+
+form.poruchka input[type=submit] {
+border-radius: 12px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+}
+
+.text ul li
+{
+font-size: 24px;
+
+}

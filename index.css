@@ -1,0 +1,59 @@
+
+#part {
+	margin-top:1cm;
+	margin-left: 20%;
+    margin-right: auto;
+	padding:0.5cm 2cm;
+	border:ridge;
+}
+#part tr th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	color: #999;
+	font-style: italic;
+	text-align: left;	
+	padding:0.3cm 2cm;
+}
+#part tr th:hover {
+	color: #699;
+	text-align: left;
+}
+#part img {
+	align:middle;
+	border:solid 2px #000000;
+	opacity:1.0;
+filter:alpha(opacity=100);
+}
+# part a:hover {
+	opacity:0.4;
+    filter:alpha(opacity=40);
+}
+
+
+
+
+#nav a {
+    font-size:20px;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+	margin-left:10px;
+    
+	
+}
+#nav ul li:hover {
+    background-color:#356892;
+	border-radius: 17px;
+}
+body
+{
+background-image:url('fon.jpg');
+} 

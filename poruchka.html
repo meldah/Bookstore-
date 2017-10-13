@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+<link rel=stylesheet type="text/css" href="poruchka.css" />
+  <TITLE> Поръчка </TITLE>
+ </HEAD>
+ <body background="izobrajeniq/08.jpg">
+ <form action="lubopitko.php" class="poruchka" method="POST">
+            	<h1> Поръчка </h1>
+            	<fieldset class="row1">
+                	<legend>Поръчка
+                	</legend>
+                	<p>
+                	<label>Име: 
+                    	</label>
+                	<input type="text" name="ime" maxlength="70">
+                	</p>
+                	<p>
+                    	<label> Адрес:
+                    	</label>
+                    	<input type="text" name="adres" maxlength="40">
+                	</p>
+                	<p>
+                    	<label>Телефон:
+                    	</label>
+                    	<input type="text" name="telefon" maxlength="10">
+			</p>
+                        <p>
+			Избери книга:
+			<select name="knigi">
+			<option> Остани </option>
+			<option> Куджо </option>
+			<option> Бурята на века </option>                                                                                                                                   
+			<option> Кралят в жълто </option>
+			</select>
+			</p>
+			<label>
+			Брой:
+			</label>
+			<select name="broi">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			</select>
+			<p>Моля, въведете вашия коментар:</p>
+			<textarea name="comment" rows="5" cols="40">
+			</textarea> <br> 
+			<input type="submit" value="Поръчай" />
+			</p>
+                   
+                </fieldset>
+                <div><input type="submit" name="submit" value="Изпрати"></div>
+            </form>
+<A HREF="index.html#begin"> Начална страница </A>
+  
+ </BODY>
+</HTML>
